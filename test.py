@@ -1,1 +1,1 @@
-print("HW")
+print("HWs")
