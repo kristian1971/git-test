@@ -1,12 +1,10 @@
 
 def pira(x):
     lista=[]
-    malalista=[]
     for brojac in range(0,x):
+        lista.append([])
         for malibrojac in range(0,brojac):
-            malalista.append(1)
-        lista.append(malalista)
-        malalista.clear()
+            lista[brojac].append(1)
     return lista
 
 izlaz=pira(int(input())) 
