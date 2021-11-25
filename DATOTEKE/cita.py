@@ -6,3 +6,7 @@ print(d)"""
 for l in f:
     print(l)
 f.close()
+
+"""
+with open()
+"""
